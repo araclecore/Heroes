@@ -1,0 +1,9 @@
+name: Heroes
+version: '${version}'
+main: ru.araclecore.battlecore.heroes.Heroes
+api-version: '1.20'
+prefix: Heroes
+load: STARTUP
+authors: [aracle]
+description: Heroes module for BattleCore
+website: adventures-server.ru
