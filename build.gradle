@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'ru.araclecore.battlecore'
-version = '0.0.1'
+version = '0.0.2'
 
 repositories {
     mavenCentral()
@@ -15,6 +15,13 @@ repositories {
     maven {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
+    }
+    maven {
+        url = "https://maven.pkg.github.com/araclecore/*"
+        credentials {
+            username = System.getenv("GITHUB_ACTOR")
+            password = System.getenv("GITHUB_TOKEN")
+        }
     }
 }
 
@@ -32,7 +39,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = this.group
-            artifactId = "connection"
+            artifactId = "heroes"
             version = this.version
             from components.java
         }
