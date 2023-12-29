@@ -1,0 +1,52 @@
+Heroes:
+
+  warrior:
+    displayname: "Воин"
+    rarity: ""
+    description:
+      - ""
+      - ""
+    suits:
+      - ""
+    abilities:
+      - "berserk"
+    weapon-name: ""
+    helmet-name: ""
+    chestplate-name: ""
+    leggings-name: ""
+    boots-name: ""
+    weapon: "SWORD"
+
+  wizard:
+    displayname: "Маг"
+    rarity: ""
+    description:
+      - ""
+      - ""
+    suits:
+      - ""
+    abilities:
+      - "berserk"
+    weapon-name: ""
+    helmet-name: ""
+    chestplate-name: ""
+    leggings-name: ""
+    boots-name: ""
+    weapon: "STUFF"
+
+  hunter:
+    displayname: "Охотник"
+    rarity: ""
+    description:
+      - ""
+      - ""
+    suits:
+      - ""
+    abilities:
+      - "berserk"
+    weapon-name: ""
+    helmet-name: ""
+    chestplate-name: ""
+    leggings-name: ""
+    boots-name: ""
+    weapon: "BOW"

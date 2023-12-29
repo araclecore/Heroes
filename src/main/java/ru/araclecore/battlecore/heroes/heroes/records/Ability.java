@@ -11,6 +11,6 @@ public record Ability(
         Rarity rarity,
         String description,
         int cost,
-        List<Trigger> trigger
+        List<Trigger> triggers
 ) {
 }
